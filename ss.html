@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Best Login Page design in html and css</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+background:url('http://directoriohoy.com/wp-content/uploads/2016/06/crossfit-en-tijuana.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">FitTorch</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"> </a></li>
+      
+          
+          </ul>
+      </li>
+     
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="#">Home</a></li>
+          <li><a href="file:///C:/Users/Sivasubbaiah/workspace/watch/WebContent/NewFile4.html"><span class="glyphicon glyphicon-aboutus"></span> About Us</a></li>
+          <li><a href="file:///C:/Users/Sivasubbaiah/workspace/watch/WebContent/NewFile5.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="file:///C:/Users/Sivasubbaiah/workspace/cars/NewFile2.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="login">
+<h1><strong>Welcome.</strong> Please login.</h1>
+<form action="javascript:void(0);" method="get">
+<fieldset>
+<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><a href="#">Forgot Password?</a></p>
+<p><input type="submit" value="Login"></p>
+</fieldset>
+</form>
+
+
+</div> <!-- end login -->
+</body>
+</html>
