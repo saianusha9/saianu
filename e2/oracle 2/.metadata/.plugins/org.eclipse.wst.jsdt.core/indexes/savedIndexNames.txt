@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+E:\oracle 2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2408550938.index
+4008440612.index
+845852168.index
+3408241376.index
+1490254057.index
+3568407348.index
